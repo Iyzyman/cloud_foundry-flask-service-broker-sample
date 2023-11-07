@@ -1,0 +1,59 @@
+2023-11-06 15:14:06,897 - service_broker_app - INFO - Successfully created service instance with id 1
+2023-11-06 16:46:55,472 - service_broker_app - INFO - Starting Service Broker for airflow env
+2023-11-06 16:48:06,090 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:49:34,358 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:51:15,303 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:01,956 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:01,977 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:01,977 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:01,990 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:01,990 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:01,990 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:02,029 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:02,029 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:02,029 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:21,034 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:21,086 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:21,086 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:21,097 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:21,097 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:21,097 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:21,105 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:21,105 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:21,105 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:44,343 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:44,367 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:44,367 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:44,378 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:44,378 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:44,378 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 16:54:44,386 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:44,386 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 16:54:44,386 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:14:49,673 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:14:49,698 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:14:49,698 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:14:49,710 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:14:49,710 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:14:49,710 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:14:49,717 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:14:49,717 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:14:49,717 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:00,787 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,809 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,809 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,821 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,821 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,821 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,829 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:00,829 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:00,829 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:40,088 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,110 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,110 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,121 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,121 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,121 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123

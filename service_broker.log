@@ -1,0 +1,8 @@
+2023-11-06 17:17:00,809 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,821 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:00,829 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-06 17:17:40,071 - service_broker_app - INFO - Starting Service Broker for airflow env
+2023-11-06 17:17:40,088 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,110 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,121 - service_broker_app - INFO - Starting Service Broker for test env
+2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123
