@@ -30,3 +30,5 @@ MANIFEST
 
 # Logs
 *.log
+service_broker.log
+testing.log
