@@ -1,10 +1,6 @@
 from functools import wraps
 from flask import current_app, request, Response, abort
 import os
-#VARIABLES
-# X_BROKER_API_MAJOR_VERSION = app.config['X_BROKER_API_MAJOR_VERSION']
-# X_BROKER_API_MINOR_VERSION = app.config['X_BROKER_API_MINOR_VERSION']
-# X_BROKER_API_VERSION_NAME = app.config['X_BROKER_API_VERSION_NAME']
 
 
 #API VERSION CHECKING
