@@ -8,24 +8,10 @@ from helpers.checks import requires_auth, requires_api_version
 import requests
 
 #Flask creation function
-def create_app(test_config=None):
+def create_app(config):
     
     app = Flask(__name__, instance_relative_config=True)
-    #VARIABLES
-    X_BROKER_API_MAJOR_VERSION = 2
-    X_BROKER_API_MINOR_VERSION = 15
-    X_BROKER_API_VERSION_NAME = 'X-Broker-Api-Version'
-
-    if test_config is not None:
-        app.config.from_object(test_config)
-        os.environ['SERVICE_TYPE']='test'
-    else:
-        # Determine the environment and load the appropriate config
-        env = os.environ.get('SERVICE_TYPE', 'mlflow')
-        if env == 'airflow':
-            app.config.from_object(AirFlowConfig)
-        else:
-            app.config.from_object(MLFlowConfig)
+    app.config.from_object(config)
     
     # Set up logging
     if not app.debug:
@@ -45,14 +31,11 @@ def create_app(test_config=None):
 
     @app.errorhandler(412)
     def version_mismatch(error):
-        app.logger.warning('Version mismatch or not specified in headers Expected: {}: {}.{}'.format(
-            X_BROKER_API_VERSION_NAME,
-            X_BROKER_API_MAJOR_VERSION,
-            X_BROKER_API_MINOR_VERSION))
-        return 'Version mismatch. Expected: {}: {}.{}'.format(
-            X_BROKER_API_VERSION_NAME,
-            X_BROKER_API_MAJOR_VERSION,
-            X_BROKER_API_MINOR_VERSION), 412
+        version='{} : {}.{}'.format( app.config['X_BROKER_API_VERSION_NAME'],
+            app.config['X_BROKER_API_MAJOR_VERSION'],
+            app.config['X_BROKER_API_MINOR_VERSION'])
+        app.logger.warning('Version mismatch or not specified in headers Expected: {}'.format(version))
+        return 'Version mismatch. Expected: {}'.format(version), 412
     
     # Health Check
     @app.route('/v2/health', methods=['GET'])
@@ -170,7 +153,13 @@ def create_app(test_config=None):
 
 
 
-app = create_app()
+        
+env = os.environ.get('SERVICE_TYPE', 'mlflow')
+if env == 'airflow':
+    conf=AirFlowConfig
+else:
+    conf=MLFlowConfig
+app = create_app(conf)
 if __name__ == '__main__':
     port=os.environ('PORT',8080)
     app.run(host='0.0.0.0',port=port)

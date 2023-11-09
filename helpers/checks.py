@@ -1,21 +1,19 @@
 from functools import wraps
 from flask import current_app, request, Response, abort
 import os
-
 #VARIABLES
-X_BROKER_API_MAJOR_VERSION = 2
-X_BROKER_API_MINOR_VERSION = 15
-X_BROKER_API_VERSION_NAME = 'X-Broker-Api-Version'
-
+# X_BROKER_API_MAJOR_VERSION = app.config['X_BROKER_API_MAJOR_VERSION']
+# X_BROKER_API_MINOR_VERSION = app.config['X_BROKER_API_MINOR_VERSION']
+# X_BROKER_API_VERSION_NAME = app.config['X_BROKER_API_VERSION_NAME']
 
 
 #API VERSION CHECKING
 def api_version_is_valid(api_version):
     version_data = api_version.split('.')
     result = True
-    if (float(version_data[0]) < X_BROKER_API_MAJOR_VERSION or
-    (float(version_data[0]) == X_BROKER_API_MAJOR_VERSION and
-    float(version_data[1]) < X_BROKER_API_MINOR_VERSION)):
+    if (float(version_data[0]) < current_app.config['X_BROKER_API_MAJOR_VERSION'] or
+    (float(version_data[0]) == current_app.config['X_BROKER_API_MAJOR_VERSION'] and
+    float(version_data[1]) < current_app.config['X_BROKER_API_MINOR_VERSION'])):
                 result = False
     return result
 

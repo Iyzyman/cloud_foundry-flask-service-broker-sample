@@ -1,9 +1,13 @@
+import os
 # config.py
 
 class Config(object):
     DEBUG = False
     SECRET_KEY = 'your-secret-key'
     TESTING = False
+    X_BROKER_API_MAJOR_VERSION = os.environ.get('API_MAJOR_VERSION',2)
+    X_BROKER_API_MINOR_VERSION = os.environ.get('API_MINOR_VERSION',15)
+    X_BROKER_API_VERSION_NAME = 'X-Broker-Api-Version'
     # other shared config variables
 
 class TestingConfig(Config):

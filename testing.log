@@ -57,3 +57,39 @@
 2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123
 2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123
 2023-11-06 17:17:40,128 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:31:51,802 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:31:51,821 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:31:51,821 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:31:51,829 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:31:51,829 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:31:51,829 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:31:51,836 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:31:51,836 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:31:51,836 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:58:05,905 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:05,927 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:05,927 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:05,936 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:05,936 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:05,936 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:05,944 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:58:05,944 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:58:05,944 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:58:33,960 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:33,981 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:33,981 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:33,991 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:33,991 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:33,991 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:33,998 - service_broker_app - WARNING - Authentication failed
+2023-11-09 10:58:33,998 - service_broker_app - WARNING - Authentication failed
+2023-11-09 10:58:33,998 - service_broker_app - WARNING - Authentication failed
+2023-11-09 10:58:46,857 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:46,876 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:46,876 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:46,885 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:46,885 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:46,885 - service_broker_app - INFO - Starting Service Broker for mlflow env
+2023-11-09 10:58:46,915 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:58:46,915 - service_broker_app - INFO - Successfully created service instance with id 123
+2023-11-09 10:58:46,915 - service_broker_app - INFO - Successfully created service instance with id 123
