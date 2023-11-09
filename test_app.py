@@ -28,6 +28,23 @@ class BrokerAPITestCase(unittest.TestCase):
         response = self.app.put('/v2/service_instances/123', headers={"Authorization": credentials,"X-Broker-Api-Version":'2.15'}, data=json.dumps(data))
         self.assertEqual(response.status_code, 201)
     
+    def test_binding(self):
+        credentials = 'Basic ' + base64.b64encode(b'admin:admin').decode('utf-8')
+        data = {}  # Add your data payload here if needed
+        response = self.app.put('/v2/service_instances/123/service_bindings/123', headers={"Authorization": credentials,"X-Broker-Api-Version":'2.15'}, data=json.dumps(data))
+        self.assertEqual(response.status_code, 201)
+    
+    def test_unbinding(self):
+        credentials = 'Basic ' + base64.b64encode(b'admin:admin').decode('utf-8')
+        data = {}  # Add your data payload here if needed
+        response = self.app.delete('/v2/service_instances/123/service_bindings/123', headers={"Authorization": credentials,"X-Broker-Api-Version":'2.15'}, data=json.dumps(data))
+        self.assertEqual(response.status_code, 200)
+    def test_deprovision(self):
+        credentials = 'Basic ' + base64.b64encode(b'admin:admin').decode('utf-8')
+        data = {}  # Add your data payload here if needed
+        response = self.app.delete('/v2/service_instances/1', headers={"Authorization": credentials,"X-Broker-Api-Version":'2.15'}, data=json.dumps(data))
+        self.assertEqual(response.status_code, 200)
+
     # Add more tests for bind, unbind, deprovision, etc.
     
 
